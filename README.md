@@ -8,7 +8,7 @@ Note:
 ### Netbeans
 #### Configuration
 * In the project's section (left panel) right click on `libraries` and select `Add jar/folder`
-* Select `dist/lib/jade.jar` and `dist/lib/common-codec-1.3.jar` which are the libraries required to run the project
+* Select `dist/lib/jade.jar` and `dist/lib/commons-codec-1.3.jar` which are the libraries required to run the project
 * Right click on the project and select `Properties`. Go to `Run` sub menu.
 * In the `Main Class` section write `jade.Boot` and in the `Arguments` section write `-gui -host 127.0.0.1`.
 
