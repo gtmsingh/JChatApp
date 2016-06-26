@@ -1,17 +1,21 @@
 # JChatApp
 It is a chatting application which do not require internet connectivity between the persons chatting, though they need to be in the same network..! Yaa almost the same thing. It is built using JADE framework in Java which is used to implement Multi-agent technologies. PS. The documentation of the codes will be updated soon
 
+Note:
+* Agent and Node are used interchangeably throughout but points to the same entity
 
 ## How to run
 ### Netbeans
-#### Config part
+#### Configuration
 * In the project's section (left panel) right click on `libraries` and select `Add jar/folder`
 * Select `dist/lib/jade.jar` and `dist/lib/common-codec-1.3.jar` which are the libraries required to run the project
 * Right click on the project and select `properties`. Go to `Run` option
-* In the `Main Class` section write `jade.Boot` and in the `Arguments` section write `-gui -host 127.0.0.1`
-#### Run
+* In the `Main Class` section write `jade.Boot` and in the `Arguments` section write `-gui -host 127.0.0.1`.
+
+#### Running
 * `Run` the application by clicking on the green play button or select it from `Run`>`Run Project`
-#### Creating apps
+
+#### Creating nodes
 * You will see a window popup, expand the options until you see `Main-Container`. Right click on `Main-Container` and select `Start new Agent`
 * Enter `Agent Name` as `master`, `Class Name` as `localChat.code` and click `OK`
 * In the login box type `Username` as `gtm` and `Password` as `gtm` and click `Submit`. The `M@$tEr` is the main control panel node for the chat application (Usage described later)
