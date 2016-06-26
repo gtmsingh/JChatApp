@@ -9,7 +9,7 @@ Note:
 #### Configuration
 * In the project's section (left panel) right click on `libraries` and select `Add jar/folder`
 * Select `dist/lib/jade.jar` and `dist/lib/common-codec-1.3.jar` which are the libraries required to run the project
-* Right click on the project and select `properties`. Go to `Run` option
+* Right click on the project and select `Properties`. Go to `Run` sub menu.
 * In the `Main Class` section write `jade.Boot` and in the `Arguments` section write `-gui -host 127.0.0.1`.
 
 #### Running
@@ -18,7 +18,7 @@ Note:
 #### Creating nodes
 * You will see a window popup, expand the options until you see `Main-Container`. Right click on `Main-Container` and select `Start new Agent`
 * Enter `Agent Name` as `master`, `Class Name` as `localChat.code` and click `OK`
-* In the login box type `Username` as `gtm` and `Password` as `gtm` and click `Submit`. The `M@$tEr` is the main control panel node for the chat application (Usage described later)
+* In the login box type `Username` as `gtm` and `Password` as `gtm` and click `Submit`. The `M@$tEr`(written on the title bar of the box) is the main control panel node for the chat application (Usage described below)
 * Now when you create other `Agents` in the way described above (with an exception that name should not be `master`) those `Agents` acts as the nodes which can talk among themselves.
 
 
@@ -31,7 +31,7 @@ Note:
 * `Dispose` terminates the node whose name is mentioned in the input box
 * Closing this agent's window will terminate the whole application
 
-#### Terminal Nodes:
+#### Terminal Node:
 * The right panel shows the list of nodes available for chat
 * The left topmost panel is the message log area. The message starting with any tab is the message sent and the messages starting with a tab character represents any message received.
 * Below the above panel is the message input box and below that is the input box for the name of the receiver.
