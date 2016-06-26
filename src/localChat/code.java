@@ -41,12 +41,12 @@ public class code extends Agent {
             
             ACLMessage m=new ACLMessage(ACLMessage.REQUEST);
             m.setContent("Invoke");
-            AID n=new AID("master@172.16.42.144:1099/JADE",AID.ISGUID);
-            n.addAddresses("http://172.16.42.144:7778/acc");
+            AID n=new AID("master@127.0.0.1:1099/JADE",AID.ISGUID);
+            n.addAddresses("http://127.0.0.1:7778/acc");
             m.addReceiver(n);
             send(m);
             
-            hosts.put("master", "172.16.42.144");
+            hosts.put("master", "127.0.0.1");
             p.f.setEditable(false);
             p.b.addActionListener(new action());
         }
