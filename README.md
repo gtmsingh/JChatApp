@@ -10,7 +10,7 @@ It is a chatting application which do not require internet connectivity between 
 * Right click on the project and select `properties`. Go to `Run` option
 * In the `Main Class` section write `jade.Boot` and in the `Arguments` section write `-gui -host 127.0.0.1`
 #### Run
-* `Clean and Build` and then `Run` the application
+* `Run` the application by clicking on the green play button or select it from `Run`>`Run Project`
 #### Creating apps
 * You will see a window popup, expand the options until you see `Main-Container`. Right click on `Main-Container` and select `Start new Agent`
 * Enter `Agent Name` as `master`, `Class Name` as `localChat.code` and click `OK`
@@ -32,3 +32,11 @@ It is a chatting application which do not require internet connectivity between 
 * The left topmost panel is the message log area. The message starting with any tab is the message sent and the messages starting with a tab character represents any message received.
 * Below the above panel is the message input box and below that is the input box for the name of the receiver.
 * `Send` button as it says sends the message.
+
+
+
+### TODO:
+* Make it work on different machines seamlessly
+* Various checks on Agent's properties of the nodes and simplify creation of node by click of a button
+* Visibility improvement when different pair of people are involved in conversation
+* Improvement in ease of use of the window buttons
